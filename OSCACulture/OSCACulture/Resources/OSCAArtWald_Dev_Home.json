@@ -1,0 +1,216 @@
+{
+  "results": [
+    {
+    "objectId": "lpKuXWHCiB",
+    "KUENSTLER_IMAGES": [
+      "Ela_Schneider",
+      "Michael_Bauer_Brandes"
+    ],
+    "KUENSTLER_KUNSTFORM": [
+      "Bildhauerei, Objekte aus Holz",
+      "Bildhauerei, Objekte unterschiedlicher Materialien"
+    ],
+    "KUENSTLER_LINK": [
+      "https://www.quartier-wald.de/k%C3%BCnstler-innen/ela-schneider/",
+      "https://www.quartier-wald.de/k%C3%BCnstler-innen/michael-bauer-brandes/"
+    ],
+    "KUENSTLER_URL": [
+      "http://ela-schneider.de/",
+      "https://eventschmiede-solingen.de/"
+    ],
+    "KW_IMAGEGALLERY": [
+      "16_WALDgeister_01",
+      "16_WALDgeister_02",
+      "16_WALDgeister_03",
+      "16_WALDgeister_04",
+      "16_WALDgeister_05",
+      "16_WALDgeister_06",
+      "16_WALDgeister_07"
+    ],
+    "geopoint": {
+      "__type": "GeoPoint",
+    "latitude": 50.9493100,
+    "longitude": 7.0421984
+    },
+    "ID_KIW": 205,
+    "ID_LATERNE": 16,
+    "KUENSTLER": "Ein Projekt von Ela Schneider, Monika und Michael Bauer-Brandes",
+    "KURZTEXT": "Einzeln hatten die Fundst\u00fccken aus WALD schon ihren Geist ausgehaucht. Zusammen(gesetzt) haben sie nun ein neues Leben: Als WALDgeister. UND Kunst.\r Die Waldgeister entstehen in Kooperation mit Monika Brandes als Gastk\u00fcnstlerin.",
+    "KW_TITLEIMAGE": "16_titel_WALDgeister",
+    "LATERNE_NR": 31,
+    "ORTSBESCHREIBUNG": "H\u00f6he Friedrich-Ebert-Stra\u00dfe 116",
+    "TITEL_HOTSPOT": "WALDgeister",
+    "createdAt": "2022-07-27T00:40:00.779Z",
+    "updatedAt": "2022-09-28T09:05:24.709Z",
+    "Minor": 35,
+    "Major": 845,
+    "UUID": "529b0f66-ac4c-4e73-8cf4-8b2f91040c24"
+    },
+    {
+    "objectId": "nBggjeYVTP",
+    "KUENSTLER_IMAGES": [
+      "BIKO_Heiderose_Birkenstock_Kotalla",
+      "Ela_Schneider",
+      "Juergen_Schmatz",
+      "Manuela_Stein",
+      "Michael_Bauer_Brandes",
+      "Michael_Klette",
+      "Sabine_Smith",
+      "Susanne_Mueller_Koelmel",
+      "Ulle_Huth"
+    ],
+    "KUENSTLER_KUNSTFORM": [
+                            "verschiedene Kunstformen"
+                            ],
+    "KUENSTLER_LINK": [
+                       "https://www.quartier-wald.de/k%C3%BCnstler-innen/"
+                       ],
+    "KUENSTLER_URL": [
+                      "[\"https://www.birkenstock-kotalla.de/\",\"http://ela-schneider.de/\",\"https://www.solingerkuenstler.de/mitglieder/j%C3%BCrgen-schmatz/\",\"https://www.stein-manuela.de/\",\"https://eventschmiede-solingen.de/\",\"http://www.klette-art.de/\",\"https://www.sabinesmith."
+                      ],
+    "KW_IMAGEGALLERY": [
+      "01_WALD_markiert_01",
+      "01_WALD_markiert_02",
+      "01_WALD_markiert_03",
+      "01_WALD_markiert_04",
+      "01_WALD_markiert_05",
+      "01_WALD_markiert_06",
+      "01_WALD_markiert_07",
+      "01_WALD_markiert_08",
+      "01_WALD_markiert_09",
+      "01_WALD_markiert_10",
+      "01_WALD_markiert_11",
+      "01_WALD_markiert_12",
+      "01_WALD_markiert_13",
+      "01_WALD_markiert_14",
+      "01_WALD_markiert_15",
+      "01_WALD_markiert_16",
+      "01_WALD_markiert_17",
+      "01_WALD_markiert_18",
+      "01_WALD_markiert_19",
+      "01_WALD_markiert_20"
+    ],
+    "geopoint": {
+      "__type": "GeoPoint",
+    "latitude": 50.9493100,
+    "longitude": 7.0421984
+    },
+    "ID_KIW": 100,
+    "ID_LATERNE": 1,
+    "KUENSTLER": "Ein Projekt aller beteiligten K\u00fcnstler*innen",
+    "KURZTEXT": "Mit unserem Logo ziehen wir durch den Solinger Stadtteil WALD, markieren 'unser' QUARTIER und setzen Zeichen \u2013 f\u00fcr die Kunst, f\u00fcr neue Perspektiven, f\u00fcr Eigeninitiative.",
+    "KW_TITLEIMAGE": "01_titel_WALD_markiert",
+    "LATERNE_NR": 7,
+    "ORTSBESCHREIBUNG": "Bei Schachfeld und Schleifer-Skulptur",
+    "TITEL_HOTSPOT": "WALD markiert",
+    "createdAt": "2022-07-27T00:40:00.838Z",
+    "updatedAt": "2022-09-28T15:17:30.191Z",
+    "Minor": 7,
+    "Major": 845,
+    "UUID": "529b0f66-ac4c-4e73-8cf4-8b2f91040c24"
+    },
+    {
+    "objectId": "0tGPP61CQi",
+    "KUENSTLER_IMAGES": [
+      "Manuela_Stein",
+      "Michael_Klette"
+    ],
+    "KUENSTLER_KUNSTFORM": [
+      "Fotografie, Video, Installation, Malerei",
+      "Malerei"
+    ],
+    "KUENSTLER_LINK": [
+      "https://www.quartier-wald.de/k%C3%BCnstler-innen/manuela-stein/",
+      "https://www.quartier-wald.de/k%C3%BCnstler-innen/michael-klette/"
+    ],
+    "KUENSTLER_URL": [
+      "https://www.stein-manuela.de/",
+      "http://www.klette-art.de/"
+    ],
+    "KW_IMAGEGALLERY": [
+      "02_WALDflaechen_02",
+      "02_WALDflaechen_03",
+      "02_WALDflaechen_04",
+      "02_WALDflaechen_05",
+      "02_WALDflaechen_06",
+      "02_WALDflaechen_07",
+      "02_WALDflaechen_08",
+      "02_WALDflaechen_09",
+      "02_WALDflaechen_10"
+    ],
+    "geopoint": {
+      "__type": "GeoPoint",
+    "latitude": 50.9493100,
+    "longitude": 7.0421984
+    },
+    "ID_KIW": 101,
+    "ID_LATERNE": 2,
+    "KUENSTLER": "Ein Projekt von Manuela Stein und Michael Klette",
+    "KURZTEXT": "Jede Stadt ist aus Vogel- oder Froschperspektive betrachtet gekennzeichnet durch Linienf\u00fchrungen, die ganz individuelle Fl\u00e4chen und Muster entstehen lassen. Aus WALDER Stadtpl\u00e4nen und Oberleitungen entwickeln Manuela Stein und Michael Klette abstrakte Stadtansichten.",
+    "KW_TITLEIMAGE": "02_titel_WALDflaechen_01",
+    "LATERNE_NR": 50,
+    "ORTSBESCHREIBUNG": "H\u00f6he La Piccolo Balestra, Friedrich-Ebert-Stra\u00dfe 105",
+    "TITEL_HOTSPOT": "WALDfl\u00e4chen",
+    "createdAt": "2022-07-27T00:40:00.841Z",
+    "updatedAt": "2022-09-28T09:05:24.859Z",
+    "Minor": 2,
+    "Major": 845,
+    "UUID": "529b0f66-ac4c-4e73-8cf4-8b2f91040c24"
+    },
+    {
+    "objectId": "3vi3SSEWS9",
+    "KUENSTLER_IMAGES": [
+      "Michael_Bauer_Brandes",
+      "Ela_Schneider"
+    ],
+    "KUENSTLER_KUNSTFORM": [
+      "Bildhauerei, Objekte unterschiedlicher Materialien",
+      "Bildhauerei, Objekte aus Holz"
+    ],
+    "KUENSTLER_LINK": [
+      "https://www.quartier-wald.de/k%C3%BCnstler-innen/michael-bauer-brandes/",
+      "https://www.quartier-wald.de/k%C3%BCnstler-innen/ela-schneider/"
+    ],
+    "KUENSTLER_URL": [
+      "https://eventschmiede-solingen.de/",
+      "http://ela-schneider.de/"
+    ],
+    "KW_IMAGEGALLERY": [
+      "03_WALDgestalten_01",
+      "03_WALDgestalten_02",
+      "03_WALDgestalten_03",
+      "03_WALDgestalten_04",
+      "03_WALDgestalten_05",
+      "03_WALDgestalten_06",
+      "03_WALDgestalten_07",
+      "03_WALDgestalten_08",
+      "03_WALDgestalten_09",
+      "03_WALDgestalten_10",
+      "03_WALDgestalten_11",
+      "03_WALDgestalten_12",
+      "03_WALDgestalten_13",
+      "03_WALDgestalten_14",
+      "03_WALDgestalten_15",
+      "03_WALDgestalten_16"
+    ],
+    "geopoint": {
+      "__type": "GeoPoint",
+    "latitude": 50.9493100,
+    "longitude": 7.0421984
+    },
+    "ID_KIW": 102,
+    "ID_LATERNE": 3,
+    "KUENSTLER": "Ein Projekt von Michael Bauer-Brandes und Ela Schneider ",
+    "KURZTEXT": "Wir wollen 'WALD gestalten' \u2013 in diesem Fall mit 'WALD-Gestalten', echten 'Ladenh\u00fctern' im positiven Wortsinn.",
+    "KW_TITLEIMAGE": "03_titel_WALDgestalten",
+    "LATERNE_NR": 47,
+    "ORTSBESCHREIBUNG": "H\u00f6he Sportsbar Zum Opa, Friedrich Ebert-Stra\u00dfe",
+    "TITEL_HOTSPOT": "WALDgestalten",
+    "createdAt": "2022-07-27T00:40:00.843Z",
+    "updatedAt": "2022-09-28T09:05:25.608Z",
+    "Minor": 12,
+    "Major": 845,
+    "UUID": "529b0f66-ac4c-4e73-8cf4-8b2f91040c24"
+    }
+  ]
+}

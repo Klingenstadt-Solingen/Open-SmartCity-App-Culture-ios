@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		114D2257287C589A003CF488 /* OSCACulture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114D224E287C589A003CF488 /* OSCACulture.framework */; };
+		114D225C287C589A003CF488 /* OSCACultureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114D225B287C589A003CF488 /* OSCACultureTests.swift */; };
+		114D225D287C589A003CF488 /* OSCACulture.h in Headers */ = {isa = PBXBuildFile; fileRef = 114D2251287C589A003CF488 /* OSCACulture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1156E57C2B9F8CD700006093 /* OSCACulture+images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156E57B2B9F8CD700006093 /* OSCACulture+images.swift */; };
+		1159BAED2B7E3F7A0089E6B2 /* OSCAArtWald_Dev.json in Resources */ = {isa = PBXBuildFile; fileRef = 1159BAEC2B7E3F7A0089E6B2 /* OSCAArtWald_Dev.json */; };
+		115AF4C42B7E521C004C2891 /* OSCABundleRequestResource+OSCAArtWalt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115AF4C32B7E521C004C2891 /* OSCABundleRequestResource+OSCAArtWalt.swift */; };
+		115BD78F2B889BAD005E2B2E /* OSCAArtWald_Dev_Home.json in Sources */ = {isa = PBXBuildFile; fileRef = 115BD78E2B889BAD005E2B2E /* OSCAArtWald_Dev_Home.json */; };
+		115BD7912B88A0FD005E2B2E /* OSCAArtWald_Dev_Home.json in Resources */ = {isa = PBXBuildFile; fileRef = 115BD78E2B889BAD005E2B2E /* OSCAArtWald_Dev_Home.json */; };
+		115BD7932B88B41E005E2B2E /* OSCAArtWaldImageEndpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115BD7922B88B41E005E2B2E /* OSCAArtWaldImageEndpointTests.swift */; };
+		1173D219287D8E970059778C /* Notification+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1173D218287D8E970059778C /* Notification+Name.swift */; };
+		1179BF1D28DDA9BC00856871 /* OSCALocationManager+Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1179BF1C28DDA9BC00856871 /* OSCALocationManager+Beacon.swift */; };
+		1179BF1F28DDAA8E00856871 /* OSCALocationManager+CoreLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1179BF1E28DDAA8E00856871 /* OSCALocationManager+CoreLocation.swift */; };
+		1179BF2128DDAB1700856871 /* OSCALocationManager+OSCAArtWald.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1179BF2028DDAB1700856871 /* OSCALocationManager+OSCAArtWald.swift */; };
+		1190A80E28E1CE0C00F64908 /* CoreLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1190A80D28E1CE0C00F64908 /* CoreLocationTests.swift */; };
+		11A37A2E28E58FF000967129 /* OSCAClassRequestResource+ArtWald.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A37A2D28E58FF000967129 /* OSCAClassRequestResource+ArtWald.swift */; };
+		11B2975428DB4E85006D9058 /* OSCATestCaseExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B2975328DB4E85006D9058 /* OSCATestCaseExtension.framework */; };
+		11B2976B28DB5523006D9058 /* API_Develop.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11B2976928DB5523006D9058 /* API_Develop.plist */; };
+		11B2976C28DB5523006D9058 /* API_Release.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11B2976A28DB5523006D9058 /* API_Release.plist */; };
+		11B2979C28DC3C9E006D9058 /* OSCALocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B2979B28DC3C9E006D9058 /* OSCALocationManager.swift */; };
+		11C6CD07288122D900BFBC08 /* OSCACulture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C6CD06288122D900BFBC08 /* OSCACulture.swift */; };
+		11C6CD09288122E700BFBC08 /* OSCACultureDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C6CD08288122E700BFBC08 /* OSCACultureDIContainer.swift */; };
+		11C6CD5028815DB700BFBC08 /* OSCACultureError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C6CD4F28815DB700BFBC08 /* OSCACultureError.swift */; };
+		11C6CD5228815E5B00BFBC08 /* OSCAArtWald.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C6CD5128815E5B00BFBC08 /* OSCAArtWald.swift */; };
+		11C6CD562881634A00BFBC08 /* OSCAArtWaldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C6CD552881634A00BFBC08 /* OSCAArtWaldTests.swift */; };
+		11C6CD582881640700BFBC08 /* OSCAArtWaldTests.json in Resources */ = {isa = PBXBuildFile; fileRef = 11C6CD572881640700BFBC08 /* OSCAArtWaldTests.json */; };
+		11D0E056287D39C00094C026 /* OSCAEssentials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11D0E055287D39C00094C026 /* OSCAEssentials.framework */; };
+		11D0E057287D39C00094C026 /* OSCAEssentials.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 11D0E055287D39C00094C026 /* OSCAEssentials.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		11D0E05A287D39C70094C026 /* OSCANetworkService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11D0E059287D39C70094C026 /* OSCANetworkService.framework */; };
+		11D0E05B287D39C70094C026 /* OSCANetworkService.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 11D0E059287D39C70094C026 /* OSCANetworkService.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		11D0E067287D3DA90094C026 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11D0E065287D3DA90094C026 /* Localizable.strings */; };
+		11D0E06B287D3DB30094C026 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11D0E069287D3DB30094C026 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		114D2258287C589A003CF488 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 114D2245287C589A003CF488 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 114D224D287C589A003CF488;
+			remoteInfo = OSCACulture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		11D0E058287D39C00094C026 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				11D0E057287D39C00094C026 /* OSCAEssentials.framework in Embed Frameworks */,
+				11D0E05B287D39C70094C026 /* OSCANetworkService.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		113B6C02287FE8C00065CAFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		113B6C07287FEAAE0065CAFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		114D224E287C589A003CF488 /* OSCACulture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OSCACulture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		114D2251287C589A003CF488 /* OSCACulture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSCACulture.h; sourceTree = "<group>"; };
+		114D2256287C589A003CF488 /* OSCACultureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSCACultureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		114D225B287C589A003CF488 /* OSCACultureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCACultureTests.swift; sourceTree = "<group>"; };
+		1156E57B2B9F8CD700006093 /* OSCACulture+images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OSCACulture+images.swift"; sourceTree = "<group>"; };
+		1159BAEC2B7E3F7A0089E6B2 /* OSCAArtWald_Dev.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = OSCAArtWald_Dev.json; sourceTree = "<group>"; };
+		115AF4C32B7E521C004C2891 /* OSCABundleRequestResource+OSCAArtWalt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OSCABundleRequestResource+OSCAArtWalt.swift"; sourceTree = "<group>"; };
+		115BD78E2B889BAD005E2B2E /* OSCAArtWald_Dev_Home.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = OSCAArtWald_Dev_Home.json; sourceTree = "<group>"; };
+		115BD7902B889DAC005E2B2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		115BD7922B88B41E005E2B2E /* OSCAArtWaldImageEndpointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAArtWaldImageEndpointTests.swift; sourceTree = "<group>"; };
+		1173D218287D8E970059778C /* Notification+Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Name.swift"; sourceTree = "<group>"; };
+		1179BF1C28DDA9BC00856871 /* OSCALocationManager+Beacon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OSCALocationManager+Beacon.swift"; sourceTree = "<group>"; };
+		1179BF1E28DDAA8E00856871 /* OSCALocationManager+CoreLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OSCALocationManager+CoreLocation.swift"; sourceTree = "<group>"; };
+		1179BF2028DDAB1700856871 /* OSCALocationManager+OSCAArtWald.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OSCALocationManager+OSCAArtWald.swift"; sourceTree = "<group>"; };
+		1190A80D28E1CE0C00F64908 /* CoreLocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreLocationTests.swift; sourceTree = "<group>"; };
+		11A37A2D28E58FF000967129 /* OSCAClassRequestResource+ArtWald.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OSCAClassRequestResource+ArtWald.swift"; sourceTree = "<group>"; };
+		11B2975328DB4E85006D9058 /* OSCATestCaseExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OSCATestCaseExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B2976928DB5523006D9058 /* API_Develop.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = API_Develop.plist; path = ../../../../../SupportingFiles/API_Develop.plist; sourceTree = "<group>"; };
+		11B2976A28DB5523006D9058 /* API_Release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = API_Release.plist; path = ../../../../../SupportingFiles/API_Release.plist; sourceTree = "<group>"; };
+		11B2979B28DC3C9E006D9058 /* OSCALocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCALocationManager.swift; sourceTree = "<group>"; };
+		11C6CD06288122D900BFBC08 /* OSCACulture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCACulture.swift; sourceTree = "<group>"; };
+		11C6CD08288122E700BFBC08 /* OSCACultureDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCACultureDIContainer.swift; sourceTree = "<group>"; };
+		11C6CD4F28815DB700BFBC08 /* OSCACultureError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCACultureError.swift; sourceTree = "<group>"; };
+		11C6CD5128815E5B00BFBC08 /* OSCAArtWald.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAArtWald.swift; sourceTree = "<group>"; };
+		11C6CD552881634A00BFBC08 /* OSCAArtWaldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCAArtWaldTests.swift; sourceTree = "<group>"; };
+		11C6CD572881640700BFBC08 /* OSCAArtWaldTests.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = OSCAArtWaldTests.json; sourceTree = "<group>"; };
+		11D0E055287D39C00094C026 /* OSCAEssentials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OSCAEssentials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D0E059287D39C70094C026 /* OSCANetworkService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OSCANetworkService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D0E066287D3DA90094C026 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		11D0E06A287D3DB30094C026 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		11D0E09F287D42DF0094C026 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Development.xcconfig; path = ../../../../../SupportingFiles/Development.xcconfig; sourceTree = "<group>"; };
+		11D0E0A0287D42DF0094C026 /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Production.xcconfig; path = ../../../../../SupportingFiles/Production.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		114D224B287C589A003CF488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D0E056287D39C00094C026 /* OSCAEssentials.framework in Frameworks */,
+				11D0E05A287D39C70094C026 /* OSCANetworkService.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		114D2253287C589A003CF488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B2975428DB4E85006D9058 /* OSCATestCaseExtension.framework in Frameworks */,
+				114D2257287C589A003CF488 /* OSCACulture.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		114D2244287C589A003CF488 = {
+			isa = PBXGroup;
+			children = (
+				115A3773288053D1009E4A53 /* scripts */,
+				114D2250287C589A003CF488 /* OSCACulture */,
+				114D225A287C589A003CF488 /* OSCACultureTests */,
+				114D224F287C589A003CF488 /* Products */,
+				11D0E054287D39C00094C026 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		114D224F287C589A003CF488 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				114D224E287C589A003CF488 /* OSCACulture.framework */,
+				114D2256287C589A003CF488 /* OSCACultureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		114D2250287C589A003CF488 /* OSCACulture */ = {
+			isa = PBXGroup;
+			children = (
+				11B2979A28DC3C41006D9058 /* Manager */,
+				113B6C02287FE8C00065CAFF /* Info.plist */,
+				1173D209287D8D860059778C /* Deeplink */,
+				11C6CCFD288121E600BFBC08 /* Objects */,
+				11A37A2C28E58FF000967129 /* Extensions */,
+				11C6CCFE288121F400BFBC08 /* Error */,
+				11D0E064287D3DA90094C026 /* Resources */,
+				11D0E07F287D3FFC0094C026 /* SupportingFiles */,
+				114D2251287C589A003CF488 /* OSCACulture.h */,
+				11C6CD08288122E700BFBC08 /* OSCACultureDIContainer.swift */,
+				11C6CD06288122D900BFBC08 /* OSCACulture.swift */,
+			);
+			path = OSCACulture;
+			sourceTree = "<group>";
+		};
+		114D225A287C589A003CF488 /* OSCACultureTests */ = {
+			isa = PBXGroup;
+			children = (
+				11C6CD282881422D00BFBC08 /* Objects */,
+				113B6C07287FEAAE0065CAFF /* Info.plist */,
+				11D0E068287D3DB30094C026 /* Resources */,
+				114D225B287C589A003CF488 /* OSCACultureTests.swift */,
+			);
+			path = OSCACultureTests;
+			sourceTree = "<group>";
+		};
+		115A3773288053D1009E4A53 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = scripts;
+			sourceTree = "<group>";
+		};
+		1173D209287D8D860059778C /* Deeplink */ = {
+			isa = PBXGroup;
+			children = (
+				1173D218287D8E970059778C /* Notification+Name.swift */,
+			);
+			path = Deeplink;
+			sourceTree = "<group>";
+		};
+		1179BF1B28DDA99000856871 /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				11B2979B28DC3C9E006D9058 /* OSCALocationManager.swift */,
+				1179BF1C28DDA9BC00856871 /* OSCALocationManager+Beacon.swift */,
+				1179BF1E28DDAA8E00856871 /* OSCALocationManager+CoreLocation.swift */,
+				1179BF2028DDAB1700856871 /* OSCALocationManager+OSCAArtWald.swift */,
+			);
+			path = LocationManager;
+			sourceTree = "<group>";
+		};
+		11A37A2C28E58FF000967129 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1156E57B2B9F8CD700006093 /* OSCACulture+images.swift */,
+				11A37A2D28E58FF000967129 /* OSCAClassRequestResource+ArtWald.swift */,
+				115AF4C32B7E521C004C2891 /* OSCABundleRequestResource+OSCAArtWalt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		11B2979A28DC3C41006D9058 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				1179BF1B28DDA99000856871 /* LocationManager */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		11C6CCFD288121E600BFBC08 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				11C6CD5128815E5B00BFBC08 /* OSCAArtWald.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		11C6CCFE288121F400BFBC08 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				11C6CD4F28815DB700BFBC08 /* OSCACultureError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		11C6CD282881422D00BFBC08 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				11C6CD572881640700BFBC08 /* OSCAArtWaldTests.json */,
+				11C6CD552881634A00BFBC08 /* OSCAArtWaldTests.swift */,
+				1190A80D28E1CE0C00F64908 /* CoreLocationTests.swift */,
+				115BD7922B88B41E005E2B2E /* OSCAArtWaldImageEndpointTests.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		11D0E054287D39C00094C026 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11B2975328DB4E85006D9058 /* OSCATestCaseExtension.framework */,
+				11D0E059287D39C70094C026 /* OSCANetworkService.framework */,
+				11D0E055287D39C00094C026 /* OSCAEssentials.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11D0E064287D3DA90094C026 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1159BAEC2B7E3F7A0089E6B2 /* OSCAArtWald_Dev.json */,
+				11D0E065287D3DA90094C026 /* Localizable.strings */,
+				115BD78E2B889BAD005E2B2E /* OSCAArtWald_Dev_Home.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		11D0E068287D3DB30094C026 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11B2976928DB5523006D9058 /* API_Develop.plist */,
+				11B2976A28DB5523006D9058 /* API_Release.plist */,
+				11D0E069287D3DB30094C026 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		11D0E07F287D3FFC0094C026 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				11D0E09F287D42DF0094C026 /* Development.xcconfig */,
+				11D0E0A0287D42DF0094C026 /* Production.xcconfig */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		114D2249287C589A003CF488 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114D225D287C589A003CF488 /* OSCACulture.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		114D224D287C589A003CF488 /* OSCACulture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 114D2260287C589A003CF488 /* Build configuration list for PBXNativeTarget "OSCACulture" */;
+			buildPhases = (
+				114D2249287C589A003CF488 /* Headers */,
+				114D224A287C589A003CF488 /* Sources */,
+				114D224B287C589A003CF488 /* Frameworks */,
+				114D224C287C589A003CF488 /* Resources */,
+				11D0E058287D39C00094C026 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSCACulture;
+			productName = OSCACulture;
+			productReference = 114D224E287C589A003CF488 /* OSCACulture.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		114D2255287C589A003CF488 /* OSCACultureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 114D2263287C589A003CF488 /* Build configuration list for PBXNativeTarget "OSCACultureTests" */;
+			buildPhases = (
+				114D2252287C589A003CF488 /* Sources */,
+				114D2253287C589A003CF488 /* Frameworks */,
+				114D2254287C589A003CF488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				114D2259287C589A003CF488 /* PBXTargetDependency */,
+			);
+			name = OSCACultureTests;
+			productName = OSCACultureTests;
+			productReference = 114D2256287C589A003CF488 /* OSCACultureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		114D2245287C589A003CF488 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					114D224D287C589A003CF488 = {
+						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1520;
+					};
+					114D2255287C589A003CF488 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 114D2248287C589A003CF488 /* Build configuration list for PBXProject "OSCACulture" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+			);
+			mainGroup = 114D2244287C589A003CF488;
+			productRefGroup = 114D224F287C589A003CF488 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				114D224D287C589A003CF488 /* OSCACulture */,
+				114D2255287C589A003CF488 /* OSCACultureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		114D224C287C589A003CF488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				115BD7912B88A0FD005E2B2E /* OSCAArtWald_Dev_Home.json in Resources */,
+				11D0E067287D3DA90094C026 /* Localizable.strings in Resources */,
+				1159BAED2B7E3F7A0089E6B2 /* OSCAArtWald_Dev.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		114D2254287C589A003CF488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D0E06B287D3DB30094C026 /* Localizable.strings in Resources */,
+				11B2976C28DB5523006D9058 /* API_Release.plist in Resources */,
+				11C6CD582881640700BFBC08 /* OSCAArtWaldTests.json in Resources */,
+				11B2976B28DB5523006D9058 /* API_Develop.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		114D224A287C589A003CF488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1179BF1D28DDA9BC00856871 /* OSCALocationManager+Beacon.swift in Sources */,
+				11C6CD07288122D900BFBC08 /* OSCACulture.swift in Sources */,
+				115BD78F2B889BAD005E2B2E /* OSCAArtWald_Dev_Home.json in Sources */,
+				115AF4C42B7E521C004C2891 /* OSCABundleRequestResource+OSCAArtWalt.swift in Sources */,
+				11A37A2E28E58FF000967129 /* OSCAClassRequestResource+ArtWald.swift in Sources */,
+				1156E57C2B9F8CD700006093 /* OSCACulture+images.swift in Sources */,
+				11C6CD5028815DB700BFBC08 /* OSCACultureError.swift in Sources */,
+				11C6CD5228815E5B00BFBC08 /* OSCAArtWald.swift in Sources */,
+				1173D219287D8E970059778C /* Notification+Name.swift in Sources */,
+				11C6CD09288122E700BFBC08 /* OSCACultureDIContainer.swift in Sources */,
+				1179BF1F28DDAA8E00856871 /* OSCALocationManager+CoreLocation.swift in Sources */,
+				1179BF2128DDAB1700856871 /* OSCALocationManager+OSCAArtWald.swift in Sources */,
+				11B2979C28DC3C9E006D9058 /* OSCALocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		114D2252287C589A003CF488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114D225C287C589A003CF488 /* OSCACultureTests.swift in Sources */,
+				1190A80E28E1CE0C00F64908 /* CoreLocationTests.swift in Sources */,
+				115BD7932B88B41E005E2B2E /* OSCAArtWaldImageEndpointTests.swift in Sources */,
+				11C6CD562881634A00BFBC08 /* OSCAArtWaldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		114D2259287C589A003CF488 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 114D224D287C589A003CF488 /* OSCACulture */;
+			targetProxy = 114D2258287C589A003CF488 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11D0E065287D3DA90094C026 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11D0E066287D3DA90094C026 /* de */,
+				115BD7902B889DAC005E2B2E /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		11D0E069287D3DB30094C026 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11D0E06A287D3DB30094C026 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		114D225E287C589A003CF488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D0E09F287D42DF0094C026 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 20240321.1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "MOCKNETWORK=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		114D225F287C589A003CF488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D0E0A0287D42DF0094C026 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 20240321.1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		114D2261287C589A003CF488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D0E09F287D42DF0094C026 /* Development.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 20240321.1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = RSJ53UGKPZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OSCACulture/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.5;
+				PRODUCT_BUNDLE_IDENTIFIER = de.osca.culture;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		114D2262287C589A003CF488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D0E0A0287D42DF0094C026 /* Production.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 20240321.1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = RSJ53UGKPZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OSCACulture/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.5;
+				PRODUCT_BUNDLE_IDENTIFIER = de.osca.culture;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		114D2264287C589A003CF488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D0E09F287D42DF0094C026 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 20240321.1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = RSJ53UGKPZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OSCACultureTests/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				MARKETING_VERSION = 1.0.5;
+				PRODUCT_BUNDLE_IDENTIFIER = de.osca.culture.OSCACultureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		114D2265287C589A003CF488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D0E0A0287D42DF0094C026 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 20240321.1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = RSJ53UGKPZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OSCACultureTests/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				MARKETING_VERSION = 1.0.5;
+				PRODUCT_BUNDLE_IDENTIFIER = de.osca.culture.OSCACultureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		114D2248287C589A003CF488 /* Build configuration list for PBXProject "OSCACulture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				114D225E287C589A003CF488 /* Debug */,
+				114D225F287C589A003CF488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		114D2260287C589A003CF488 /* Build configuration list for PBXNativeTarget "OSCACulture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				114D2261287C589A003CF488 /* Debug */,
+				114D2262287C589A003CF488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		114D2263287C589A003CF488 /* Build configuration list for PBXNativeTarget "OSCACultureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				114D2264287C589A003CF488 /* Debug */,
+				114D2265287C589A003CF488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 114D2245287C589A003CF488 /* Project object */;
+}

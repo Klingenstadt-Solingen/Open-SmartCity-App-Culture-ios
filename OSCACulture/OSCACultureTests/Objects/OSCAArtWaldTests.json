@@ -1,0 +1,265 @@
+{
+    "results": [
+        {
+            "objectId": "KA3XGKUWWe",
+            "KUENSTLER_LINK": [
+                "https://www.quartier-wald.de/k%C3%BCnstler-innen/"
+            ],
+            "KW_IMAGEGALLERY": [
+                "01_WALD_markiert_01",
+                "01_WALD_markiert_02",
+                "01_WALD_markiert_03",
+                "01_WALD_markiert_04",
+                "01_WALD_markiert_05",
+                "01_WALD_markiert_06",
+                "01_WALD_markiert_07",
+                "01_WALD_markiert_08",
+                "01_WALD_markiert_09",
+                "01_WALD_markiert_10",
+                "01_WALD_markiert_11",
+                "01_WALD_markiert_12",
+                "01_WALD_markiert_13",
+                "01_WALD_markiert_14",
+                "01_WALD_markiert_15",
+                "01_WALD_markiert_16",
+                "01_WALD_markiert_17",
+                "01_WALD_markiert_18",
+                "01_WALD_markiert_19",
+                "01_WALD_markiert_20"
+            ],
+            "geopoint": {
+                "__type": "GeoPoint",
+                "latitude": 51.1841073563916,
+                "longitude": 7.04167583520154
+            },
+            "ID_KIW": 100,
+            "ID_LATERNE": 1,
+            "KUENSTLER": "Ein Projekt aller beteiligten K\u00fcnstler*innen",
+            "KUENSTLER_IMAGES": [
+                "BIKO_Heiderose_Birkenstock_Kotalla",
+                "Ela_Schneider",
+                "Juergen_Schmatz",
+                "Manuela_Stein",
+                "Michael_Bauer_Brandes",
+                "Michael_Klette",
+                "Sabine_Smith",
+                "Susanne_Mueller_Koelmel",
+                "Ulle_Huth"
+            ],
+            "KUENSTLER_KUNSTFORM": [
+                "verschiedene Kunstformen"
+            ],
+            "KUENSTLER_URL": [
+                "[\"https://www.birkenstock-kotalla.de/\",\"http://ela-schneider.de/\",\"https://www.solingerkuenstler.de/mitglieder/j%C3%BCrgen-schmatz/\",\"https://www.stein-manuela.de/\",\"https://eventschmiede-solingen.de/\",\"http://www.klette-art.de/\",\"https://www.sabinesmith."
+            ],
+            "KURZTEXT": "Mit unserem Logo ziehen wir durch den Solinger Stadtteil WALD, markieren 'unser' QUARTIER und setzen Zeichen \u2013 f\u00fcr die Kunst, f\u00fcr neue Perspektiven, f\u00fcr Eigeninitiative.",
+            "KW_TITLEIMAGE": "01_titel_WALD_markiert",
+            "LATERNE_NR": 7,
+            "ORTSBESCHREIBUNG": "Bei Schachfeld und Schleifer-Skulptur",
+            "TITEL_HOTSPOT": "WALD markiert",
+            "createdAt": "2020-11-11T16:03:33.776Z",
+            "updatedAt": "2022-05-16T00:40:00.460Z",
+            "Major": 845,
+            "Minor": 7,
+            "UUID": "529B0F66-AC4C-4E73-8CF4-8B2F91040C24"
+        },
+        {
+            "objectId": "RETSsS1P2g",
+            "KUENSTLER_IMAGES": [
+                "Michael_Bauer_Brandes",
+                "Ela_Schneider"
+            ],
+            "KUENSTLER_KUNSTFORM": [
+                "Bildhauerei, Objekte unterschiedlicher Materialien",
+                "Bildhauerei, Objekte aus Holz"
+            ],
+            "KUENSTLER_LINK": [
+                "https://www.quartier-wald.de/k%C3%BCnstler-innen/michael-bauer-brandes/",
+                "https://www.quartier-wald.de/k%C3%BCnstler-innen/ela-schneider/"
+            ],
+            "KUENSTLER_URL": [
+                "https://eventschmiede-solingen.de/",
+                "http://ela-schneider.de/"
+            ],
+            "KW_IMAGEGALLERY": [
+                "03_WALDgestalten_01",
+                "03_WALDgestalten_02",
+                "03_WALDgestalten_03",
+                "03_WALDgestalten_04",
+                "03_WALDgestalten_05",
+                "03_WALDgestalten_06",
+                "03_WALDgestalten_07",
+                "03_WALDgestalten_08",
+                "03_WALDgestalten_09",
+                "03_WALDgestalten_10",
+                "03_WALDgestalten_11",
+                "03_WALDgestalten_12",
+                "03_WALDgestalten_13",
+                "03_WALDgestalten_14",
+                "03_WALDgestalten_15",
+                "03_WALDgestalten_16"
+            ],
+            "geopoint": {
+                "__type": "GeoPoint",
+                "latitude": 51.1842485574097,
+                "longitude": 7.04291193248674
+            },
+            "ID_KIW": 102,
+            "ID_LATERNE": 3,
+            "KUENSTLER": "Ein Projekt von Michael Bauer-Brandes und Ela Schneider ",
+            "KURZTEXT": "Wir wollen 'WALD gestalten' \u2013 in diesem Fall mit 'WALD-Gestalten', echten 'Ladenh\u00fctern' im positiven Wortsinn.",
+            "KW_TITLEIMAGE": "03_titel_WALDgestalten",
+            "LATERNE_NR": 47,
+            "ORTSBESCHREIBUNG": "H\u00f6he Sportsbar Zum Opa, Friedrich Ebert-Stra\u00dfe",
+            "TITEL_HOTSPOT": "WALDgestalten",
+            "createdAt": "2020-11-11T16:03:33.861Z",
+            "updatedAt": "2022-05-16T00:40:00.489Z",
+            "Major": 845,
+            "Minor": 47,
+            "UUID": "529B0F66-AC4C-4E73-8CF4-8B2F91040C24",
+            "artists": [
+                "Michael Bauer-Brandes",
+                "Ela Schneider"
+            ]
+        },
+        {
+            "objectId": "nCLlR9fyt6",
+            "KUENSTLER_IMAGES": [
+                "Sabine_Smith"
+            ],
+            "KUENSTLER_KUNSTFORM": [
+                "Bildhauerei, Fotografie, Installation"
+            ],
+            "KUENSTLER_LINK": [
+                "https://www.quartier-wald.de/k%C3%BCnstler-innen/sabine-smith/"
+            ],
+            "KUENSTLER_URL": [
+                "https://www.sabinesmith.de/"
+            ],
+            "KW_IMAGEGALLERY": [
+                "04_WALDER_Stolpersteine_01",
+                "04_WALDER_Stolpersteine_02",
+                "04_WALDER_Stolpersteine_03",
+                "04_WALDER_Stolpersteine_04",
+                "04_WALDER_Stolpersteine_05",
+                "04_WALDER_Stolpersteine_06",
+                "04_WALDER_Stolpersteine_07",
+                "04_WALDER_Stolpersteine_08",
+                "04_WALDER_Stolpersteine_09",
+                "04_WALDER_Stolpersteine_10",
+                "04_WALDER_Stolpersteine_11",
+                "04_WALDER_Stolpersteine_12"
+            ],
+            "geopoint": {
+                "__type": "GeoPoint",
+                "latitude": 51.1833820444174,
+                "longitude": 7.04116568397296
+            },
+            "ID_KIW": 103,
+            "ID_LATERNE": 4,
+            "KUENSTLER": "Ein Projekt von Sabine Smith",
+            "KURZTEXT": "Wir wollen den Schicksalen der Walder B\u00fcrgerinnen und B\u00fcrger nachsp\u00fcren, die aufgrund ihrer politischen \u00dcberzeugung, ihres j\u00fcdischen Glaubens oder aus anderen fadenscheinigen Gr\u00fcnden in der Zeit des Nationalsozialismus den Tod fanden.",
+            "KW_TITLEIMAGE": "04_titel_WALDER_Stolpersteine",
+            "LATERNE_NR": 12,
+            "ORTSBESCHREIBUNG": "Haus rechts von Buchhandlung B\u00fccherwald",
+            "TITEL_HOTSPOT": "WALDER Stolpersteine",
+            "createdAt": "2020-11-11T16:03:33.878Z",
+            "updatedAt": "2022-05-16T00:40:00.505Z",
+            "Major": 845,
+            "Minor": 12,
+            "UUID": "529B0F66-AC4C-4E73-8CF4-8B2F91040C24",
+            "artists": [
+                "Sabine Smith"
+            ]
+        },
+        {
+            "objectId": "HvC1BoE8b1",
+            "KUENSTLER_IMAGES": [
+                "Ulle_Huth",
+                "Ela_Schneider"
+            ],
+            "KUENSTLER_KUNSTFORM": [
+                "Malerei",
+                "Bildhauerei, Objekte aus Holz"
+            ],
+            "KUENSTLER_LINK": [
+                "https://www.quartier-wald.de/k%C3%BCnstler-innen/ulle-huth/",
+                "https://www.quartier-wald.de/k%C3%BCnstler-innen/ela-schneider/"
+            ],
+            "KUENSTLER_URL": [
+                "https://www.solingerkuenstler.de/mitglieder/ulle-huth/",
+                "http://ela-schneider.de/"
+            ],
+            "geopoint": {
+                "__type": "GeoPoint",
+                "latitude": 51.1843643742534,
+                "longitude": 7.04316889434487
+            },
+            "ID_KIW": 106,
+            "ID_LATERNE": 7,
+            "KUENSTLER": "Ein Projekt von Ulle Huth und Ela Schneider",
+            "KURZTEXT": "Tapis de BOIS \u2013 frz.; \u00fcbersetzt: Teppiche aus WALD / Holz \u2013 sind kleine Teppiche in der Gr\u00f6\u00dfe von Fu\u00dfabtretern, gewebt aus Filz und Holz, das in SG-Wald und Umgebung gesammelt wurde.",
+            "KW_IMAGEGALLERY": null,
+            "KW_TITLEIMAGE": "07_titel_Tapis_de_BOIS",
+            "LATERNE_NR": 33,
+            "ORTSBESCHREIBUNG": "H\u00f6he Deutzerhof-Apotheke, Friedrich-Ebert-Str. 122",
+            "TITEL_HOTSPOT": "Tapis de BOIS",
+            "createdAt": "2020-11-11T16:03:33.946Z",
+            "updatedAt": "2022-05-16T00:40:00.541Z",
+            "Major": 845,
+            "Minor": 33,
+            "UUID": "529B0F66-AC4C-4E73-8CF4-8B2F91040C24",
+            "artists": [
+                "Ulle Huth",
+                "Ela Schneider"
+            ]
+        },
+        {
+            "objectId": "qarJjlfWPz",
+            "KUENSTLER_IMAGES": [
+                "Susanne_Mueller_Koelmel",
+                "Ela_Schneider"
+            ],
+            "KUENSTLER_KUNSTFORM": [
+                "Malerei, Zeichnung, Installation",
+                "Bildhauerei, Objekte aus Holz"
+            ],
+            "KUENSTLER_LINK": [
+                "https://www.quartier-wald.de/k%C3%BCnstler-innen/susanne-m%C3%BCller-k%C3%B6lmel/",
+                "https://www.quartier-wald.de/k%C3%BCnstler-innen/ela-schneider/"
+            ],
+            "KUENSTLER_URL": [
+                "http://smk-art.de/art/",
+                "http://ela-schneider.de/"
+            ],
+            "KW_IMAGEGALLERY": [
+                "08_WALDER_Laeden_01",
+                "08_WALDER_Laeden_02",
+                "08_WALDER_Laeden_03",
+                "08_WALDER_Laeden_04"
+            ],
+            "geopoint": {
+                "__type": "GeoPoint",
+                "latitude": 51.1841405397091,
+                "longitude": 7.04215380275533
+            },
+            "ID_KIW": 107,
+            "ID_LATERNE": 8,
+            "KUENSTLER": "Ein Projekt von Susanne M\u00fcller-K\u00f6lmel und Ela Schneider",
+            "KURZTEXT": "Schaufenster sind komponiert und wollen beachtet und betrachtet werden \u2013 genau wie Bilder. Die beiden K\u00fcnstlerinnen haben genau hingeschaut und ein paar Sch\u00e4tze geborgen, denen sie einen ganz individuellen Glanz verliehen haben.",
+            "KW_TITLEIMAGE": "08_titel_WALDER_Laeden",
+            "LATERNE_NR": 44,
+            "ORTSBESCHREIBUNG": "H\u00f6he Augenoptik Gutes Sehen Friedrich-Ebert-Stra\u00dfe 123",
+            "TITEL_HOTSPOT": "WALDER L\u00e4den",
+            "createdAt": "2020-11-11T16:03:33.964Z",
+            "updatedAt": "2022-05-16T00:40:00.554Z",
+            "Major": 845,
+            "Minor": 44,
+            "UUID": "529B0F66-AC4C-4E73-8CF4-8B2F91040C24",
+            "artists": [
+                "Susanne M\u00fcller-K\u00f6lmel",
+                "Ela Schneider"
+            ]
+        }
+    ]
+}
